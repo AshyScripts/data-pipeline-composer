@@ -15,6 +15,11 @@ In this lab, you will learn how to:
 - Design a DAG with proper task dependencies, ensuring all execution paths conclude appropriately.
 
 -----
+In this lab, we will use Iris dataset from UCI repository to showcase how to set up an automated data pipeline using composer environment of GCP. You can download this dataset by using below command:
+```bash
+curl -o iris.data https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+```
+
 ### Using Airflow Variables
 We use Variable.get to retrieve configuration parameters stored as Airflow Variables. This approach allows us to define environment variables programmatically.
 ```python
