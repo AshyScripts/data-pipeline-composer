@@ -1,6 +1,8 @@
 # Airflow DAG for Iris Dataset Preprocessing
+![Main Dag](assets/task_group_showed.png)
 ### Introduction
 This lab focuses on building an Airflow DAG that preprocesses the Iris dataset. The pipeline involves validating and preprocessing data, performing data quality checks, storing metrics, and loading the processed data into BigQuery. The DAG demonstrates best practices in structuring tasks, handling dependencies, and utilizing Airflow's features for efficient workflow management.
+![Main dag not showing tasks group](assets/main_dag.png)
 
 ### Learning Objectives
 In this lab, you will learn how to:
